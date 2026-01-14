@@ -52,6 +52,7 @@ public class Main {
     assignmentOperators();
     comparisonOperators();
     logicalOperators();
+    incrementDecrementOperators();
 
     }
     public static void arithmeticOperators(){
@@ -107,6 +108,9 @@ public class Main {
         System.out.println("=====logicalOperators=====");
         boolean a=true;
         boolean b=false;
+        int T=10000;
+        int U=20000;
+        System.out.println("withdraw:" +((T>U) && (U>T)));
 
         System.out.println("a && b:"+(a && b));
         System.out.println("a || b:"+(a || b));
