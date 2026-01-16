@@ -19,4 +19,5 @@ public class Ternary {
             System.out.println("i:"+i);
         }
     }
+    
 }
