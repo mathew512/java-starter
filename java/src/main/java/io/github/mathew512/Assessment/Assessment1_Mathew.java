@@ -1,9 +1,14 @@
-public class Assessment_Mathew {  
+package io.github.mathew512.Assessment;
 
-    import java.util.Scanner;
+import java.util.Scanner;
+import java.util.InputMismatchException;
+
+public class Assessment1_Mathew {  
 
     public static void main(String[] args) {
-        System.out.println("====Problem 1====" );
+        System.out.println(" -------------------" );
+        System.out.println("|     Problem 1     |" );
+        System.out.println(" -------------------" );
         // declare the initial variables 
         int a = 15;
         int b = 4;
@@ -20,7 +25,9 @@ public class Assessment_Mathew {
         System.out.println("Expression Result: " + expressionResult);
         System.out.println("Remainder of a divided by b: " + remainder);
 
-        System.out.println("====Problem 2====" );
+        System.out.println(" --------------------" );
+        System.out.println("|      Problem 2     |" );
+        System.out.println(" --------------------" );
 
         Scanner scanner = new Scanner(System.in);
         // prompt user for score
@@ -42,7 +49,9 @@ public class Assessment_Mathew {
             System.out.println("Grade: F");
         }
 
-        System.out.println("====Problem 3====" );
+        System.out.println(" --------------------" );
+        System.out.println("|      Problem 3     |" );
+        System.out.println(" --------------------" );
 
         //loop from 1 to 20
         for (int i=1; i<=20; i++){
@@ -51,15 +60,18 @@ public class Assessment_Mathew {
                 System.out.println(i + " is Even");
             } else {
                 System.out.println(i + " is Odd");
-        }
-        //check if multiple of 5
-        if (i % 5 == 0){
-            System.out.println(i + " is a multiple of 5");
+            }
+            //check if multiple of 5
+            if (i % 5 == 0){
+                System.out.println(i + " is a multiple of 5");
+            }
+
+            System.out.println(); // print a blank line for better readability
         }
 
-        System.out.println(); // print a blank line for better readability
-
-        System.out.println("====Problem 4====" );
+        System.out.println(" ------------------" );
+        System.out.println("|      Problem 4   |" );
+        System.out.println(" ------------------" );
 
         int number;
         long factorial = 1;
@@ -80,31 +92,46 @@ public class Assessment_Mathew {
         //step 4: display the result
         System.out.println("The factorial of " + number + " is: " + factorial);
 
-        System.out.println("====Problem 5====" );
+        System.out.println(" -------------------------" );
+        System.out.println("|        Problem 5        |" );
+        System.out.println(" -------------------------" );
 
         int rows = 5;
         //outer loop for each row
         for (int i = 1; i <= rows; i++) {
             //inner loop for spaces
-            for (int j = 1; j<=1; j++){
+            for (int j = 1; j<=i; j++){
                 System.out.print("*");
             }
-    }
+            System.out.println(); // move to next line after each row
+        }
 
-    System.out.println(); // print a blank line for better readability
-    System.out.println("====Console Calculator====" );
-    Scanner scanner = new Scanner(System.in);
-    boolean running = true;
+        System.out.println(); // print a blank line for better readability
+        System.out.println("\n===================================");
+        System.out.println("      SIMPLE CONSOLE CALCULATOR     ");
+        System.out.println("===================================\n");
 
-    while (running) {
+        scanner = new Scanner(System.in);
+        boolean running = true;
+
+        while (running) {
         // Display menu
-        System.out.println("Select an operation:");
-        System.out.println("1. Addition");
-        System.out.println("2. Subtraction");
-        System.out.println("3. Multiplication");
-        System.out.println("4. Division");
-        System.out.println("5. Exit");
+        System.out.println("+-----------------------------------+");
+        System.out.println("|           Calculator Menu         |");
+        System.out.println("+-----------------------------------+");
+        System.out.println("|1. Addition                        |");
+        System.out.println("|2. Subtraction                     |");
+        System.out.println("|3. Multiplication                  |");
+        System.out.println("|4. Division                        |");
+        System.out.println("|5. Exit                            |");
         System.out.print("Enter your choice (1-5): ");
+
+        //Handle non-numeric menu input
+        if(!scanner.hasNextInt()){
+            System.out.println("Invalid input. Please enter a number between 1 and 5.");
+            scanner.next(); // clear invalid input
+            continue;
+        }
 
         int choice = scanner.nextInt();
 
@@ -115,12 +142,27 @@ public class Assessment_Mathew {
             continue;
         }
 
-        // Get two numbers from user
-        System.out.print("Enter first number: ");
-        double num1 = scanner.nextDouble();
-        System.out.print("Enter second number: ");
-        double num2 = scanner.nextDouble();
+        // Validate menu choice
+        if (choice < 1 || choice > 5) {
+            System.out.println("Invalid choice. Please select a number between 1 and 5.");
+            continue;
+        }
 
+
+
+        // Get two numbers from user with error handling
+        double num1=0 , num2=0;
+        try{
+            System.out.print("Enter first number: ");
+            num1 = scanner.nextDouble();
+
+            System.out.print("Enter second number: ");
+            num2 = scanner.nextDouble();
+        }catch(InputMismatchException e){
+            System.out.println("Invalid input. Please enter numeric values.");
+            scanner.next(); // clear invalid input
+            continue;
+        }
         double result;
 
         // Perform the chosen operation
@@ -146,13 +188,8 @@ public class Assessment_Mathew {
                 }
                 break;
         }
-        //ask if user wants to perform another calculation
-        System.out.print("Do you want to perform another calculation? (yes/no): ");
-        Char again = scanner.next().charAt(0);
-        if (again != 'y' && again != 'Y') {
-            running = false;
-            System.out.println("Exiting the calculator. Goodbye!");
         }
+     scanner.close();
     }
-    scanner.close();
+        
 }
