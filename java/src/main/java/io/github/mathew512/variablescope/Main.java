@@ -3,6 +3,7 @@ package io.github.mathew512.variablescope;
 import java.util.logging.Logger;
 
 public class Main {
+
     //class variales - defined outside the methods
     public static String config = "Version 1.0";
     private static Logger logger=Logger.getLogger(Main.class.getName());
