@@ -1,0 +1,140 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Assessment_Mathew_Kasanga.java_Se_008.Main",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Exercise.java_se_008.Main",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Assessment1_Mathew",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Assessment_Mathew_Kasanga.Assessment1_Mathew",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Assessment1_Mathew_kasanga",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Assessment_Mathew_Kasanga.java_Se_005.Assessment1_Mathew_kasanga",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "io.github.Userinput.Main",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.App",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Assessment1_Mathew",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Assessment.Assessment1_Mathew",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Calculator.Main",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Main(2)",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Main",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Main(3)",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.decisions.Main",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Main(4)",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.loops.Main",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Ternary",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.loops.Ternary",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Main(5)",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.methods.Main",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "StudentGrdaeCalculator",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.methods.StudentGrdaeCalculator",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "TemperatureConveter",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.methods.TemperatureConveter",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Car",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.oop.Car",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Main(6)",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.oop.Main",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Main(7)",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.variablescope.Main",
+            "projectName": "java"
+        }
+    ]
+}

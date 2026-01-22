@@ -1,9 +1,9 @@
-package io.github.mathew512.Assessment;
+package io.github.mathew512.Assessment_Mathew_Kasanga.java_Se_005;
 
 import java.util.Scanner;
 import java.util.InputMismatchException;
 
-public class Assessment1_Mathew {  
+public class Assessment1_Mathew_kasanga {  
 
     public static void main(String[] args) {
         System.out.println(" -------------------" );
