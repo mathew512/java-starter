@@ -1,4 +1,4 @@
-package io.github.mathew512.Assessment_Mathew_Kasanga.java_Se_008;
+package io.github.mathew512.Assessment_Mathew_Kasanga.java_Se_007;
 
 import io.github.mathew512.oop.BankAccount;
 
