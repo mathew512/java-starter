@@ -44,7 +44,7 @@ public class StudentWithEncapsulation {
         if (name !=null && name.trim().length() >=2){
             this.name=name.trim();
         } else {
-            System.out.println("Error: Name must be atleast 2 character");
+            System.out.println("Error: Name must be at least 2 character");
         }
     }
     public void setAge(int age){

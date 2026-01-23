@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "io.github.mathew512.Inheritance.Main",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "io.github.mathew512.Assessment_Mathew_Kasanga.java_Se_008.Main",
             "projectName": "java"
         },

@@ -17,8 +17,8 @@ public class Main {
         tr.displayInfo();
         
 
-        //temerature converter
-        System.out.println("==========TEMPARATURE CONVERTER============");
+        //temperature converter
+        System.out.println("==========TEMPERATURE CONVERTER============");
         TemperatureConverter temp = new TemperatureConverter(25.0);
 
         //display initial
