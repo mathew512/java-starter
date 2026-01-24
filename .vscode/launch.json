@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Assessment2_MathewKasanga",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Assessment_Mathew_Kasanga.java_Se_010.Assessment2_MathewKasanga_OOP.Assessment2_MathewKasanga",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "BankDemo",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Assessment_Mathew_Kasanga.java_Se_010.Assessment2_MathewKasanga_BankSystem.BankDemo",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "BankApplication",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Assessment_Mathew_Kasanga.java_Se_010.Assessment2_MathewKasanga_BankSystem.BankApplication",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "CalculatorDemo",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Assessment_Mathew_Kasanga.java_Se_010.Assessment2_MathewKasanga_OOP.Problem3.CalculatorDemo",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "EmployeeDemo",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Assessment_Mathew_Kasanga.java_Se_010.Assessment2_MathewKasanga_OOP.Problem2.EmployeeDemo",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "BookDemo",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Assessment_Mathew_Kasanga.java_Se_010.Assessment2_MathewKasanga_OOP.Problem1.BookDemo",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Assessment2_Mathew_Kasanga",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Assessment_Mathew_Kasanga.java_Se_010.Assessment2_Mathew_Kasanga",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "io.github.mathew512.Inheritance.Main",
