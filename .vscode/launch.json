@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PaymentDemo",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Exercise.java_se_010.payment_system.PaymentDemo",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "EmployementDemo",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Exercise.java_se_010.employee_abstraction.EmployementDemo",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "ShapeDemo",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Exercise.java_se_010.shape_polymorphism.ShapeDemo",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.polyabstract.Main",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
             "name": "Assessment2_MathewKasanga",
             "request": "launch",
             "mainClass": "io.github.mathew512.Assessment_Mathew_Kasanga.java_Se_010.Assessment2_MathewKasanga_OOP.Assessment2_MathewKasanga",
