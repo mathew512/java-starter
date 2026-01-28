@@ -1,4 +1,4 @@
-package io.github.mathew512.Exercise.java_se_010.payment_system;
+package io.github.mathew512.Exercise.java_se_011.payment_system;
 
 public class BankTransferPayment extends Payment {
     private String accountNumber;

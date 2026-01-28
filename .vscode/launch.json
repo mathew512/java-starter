@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LibraryDemo",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Exercise.java_se_012.LibraryDemo",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "ComputerDemo",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Exercise.java_se_012.ComputerDemo",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "BankAccountDemo",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Exercise.java_se_012.BankAccountDemo",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.statickeyword.Main",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
             "name": "PaymentDemo",
             "request": "launch",
             "mainClass": "io.github.mathew512.Exercise.java_se_010.payment_system.PaymentDemo",

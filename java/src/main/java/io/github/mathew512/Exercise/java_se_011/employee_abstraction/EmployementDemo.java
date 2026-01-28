@@ -1,4 +1,4 @@
-package io.github.mathew512.Exercise.java_se_010.employee_abstraction;
+package io.github.mathew512.Exercise.java_se_011.employee_abstraction;
 
 public class EmployementDemo {
 

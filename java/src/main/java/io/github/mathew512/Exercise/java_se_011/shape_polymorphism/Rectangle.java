@@ -1,4 +1,4 @@
-package io.github.mathew512.Exercise.java_se_010.shape_polymorphism;
+package io.github.mathew512.Exercise.java_se_011.shape_polymorphism;
 
 public class Rectangle extends Shape {
     private double width, height;
