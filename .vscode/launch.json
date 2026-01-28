@@ -8,6 +8,13 @@
             "type": "java",
             "name": "LibraryDemo",
             "request": "launch",
+            "mainClass": "io.github.mathew512.Exception.LibraryDemo",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "LibraryDemo",
+            "request": "launch",
             "mainClass": "io.github.mathew512.Exercise.java_se_012.LibraryDemo",
             "projectName": "java"
         },
