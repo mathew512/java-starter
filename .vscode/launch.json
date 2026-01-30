@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ECommerceTest",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Assessment_Mathew_Kasanga.java_Se_014.Problem3.ECommerceTest",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "BankTest",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Assessment_Mathew_Kasanga.java_Se_014.Problem2.BankTest",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "LibraryTest",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Assessment_Mathew_Kasanga.java_Se_014.Problem1.LibraryTest",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "LibraryTest",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Assessment_Mathew_Kasanga.java_Se_014.LibraryTest",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "io.github.mathew512.interfaces.Main",
