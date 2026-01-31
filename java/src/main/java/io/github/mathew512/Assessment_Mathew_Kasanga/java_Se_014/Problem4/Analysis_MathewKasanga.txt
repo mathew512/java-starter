@@ -1,0 +1,19 @@
+Assessment 3: Mid-Term Practical Test
+Student: Mathew Kasanga
+Problem: 4
+
+Issues Identified:
+1. Public static companyName violates encapsulation.
+2. Constructor did not initialize salary properly.
+3. setSalary method incorrectly assigned parameter to itself.
+4. Negative salary handling was weak (only printed message).
+5. calculateBonus method had wrong return type (void instead of double).
+6. Missing getters/setters for fields.
+
+Corrections:
+- Made companyName private static with getter/setter.
+- Added salary initialization in constructor with validation.
+- Fixed setSalary to use this.salary.
+- Added InvalidSalaryException for negative salary cases.
+- Changed calculateBonus to return double.
+- Added displayEmployeeInfo() for clarity.
