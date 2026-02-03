@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DataStructureDemo",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Exercise.java_se_018.DataStructureDemo",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "io.github.mathew512.generics.Main",
