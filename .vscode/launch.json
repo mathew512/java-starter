@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HashMapDemo",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Datastructure.HashMapDemo",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "SetOperations",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Datastructure.SetOperations",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "LinkedHashSetOperations",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Datastructure.LinkedHashSetOperations",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "LinkedHashSetDemo",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Datastructure.LinkedHashSetDemo",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "HashSetIteration",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Datastructure.HashSetIteration",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "HashSetOperation",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Datastructure.HashSetOperation",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "HashSetDemo",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Datastructure.HashSetDemo",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
             "name": "DataStructureDemo",
             "request": "launch",
             "mainClass": "io.github.mathew512.Exercise.java_se_018.DataStructureDemo",
