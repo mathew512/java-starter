@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "WordFrequencyCounter",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Exercise.java_se_016.WordFrequencyCounter",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "HashMapPerformance",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Datastructure.HashMapPerformance",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "HashMapIteration",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Datastructure.HashMapIteration",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "HashMapUtilities",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Datastructure.HashMapUtilities",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "HashMapOperations",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Datastructure.HashMapOperations",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
             "name": "HashMapDemo",
             "request": "launch",
             "mainClass": "io.github.mathew512.Datastructure.HashMapDemo",
