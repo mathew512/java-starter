@@ -1,4 +1,4 @@
-package io.github.mathew512.Userinput;
+package io.github;
 
 public class Student {
     private String name;

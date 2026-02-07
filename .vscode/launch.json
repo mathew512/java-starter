@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ComparatorDemo",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Comparator.ComparatorDemo",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "ListIteratorDemo",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Iterator.ListIteratorDemo",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "IteratorVsForLoop",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Iterator.IteratorVsForLoop",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "BasicIterator",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Iterator.BasicIterator",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
             "name": "WordFrequencyCounter",
             "request": "launch",
             "mainClass": "io.github.mathew512.Exercise.java_se_016.WordFrequencyCounter",
