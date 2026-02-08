@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CollectionFilter",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Exercise.java_se_017.CollectionFilter",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "ComparableDemo",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Exercise.java_se_017.ComparableDemo",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "AdvancedSorting",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Exercise.java_se_017.AdvancedSorting",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "SortingSystem",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Exercise.java_se_017.SortingSystem",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "MultipleFieldSorting",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Comparator.MultipleFieldSorting",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "ModernComparator",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Comparator.ModernComparator",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "AnonymousComparator",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Comparator.AnonymousComparator",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
             "name": "ComparatorDemo",
             "request": "launch",
             "mainClass": "io.github.mathew512.Comparator.ComparatorDemo",
