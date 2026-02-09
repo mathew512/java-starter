@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MethodReferences",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.LambdaExpressions.MethodReferences",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "BuiltInInterfaces",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.LambdaExpressions.BuiltInInterfaces",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "LambdaSyntax",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.LambdaExpressions.LambdaSyntax",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
             "name": "CollectionFilter",
             "request": "launch",
             "mainClass": "io.github.mathew512.Exercise.java_se_017.CollectionFilter",
