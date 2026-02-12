@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SortingAndPeeking",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Streams.SortingAndPeeking",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "MappingOperations",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Streams.MappingOperations",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "FilteringOperations",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Streams.FilteringOperations",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "StreamCreation",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Streams.StreamCreation",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
             "name": "MethodReferences",
             "request": "launch",
             "mainClass": "io.github.mathew512.LambdaExpressions.MethodReferences",
