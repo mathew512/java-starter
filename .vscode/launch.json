@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StreamExample",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Exercise.java_se_020.Problem1.StreamExample",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
             "name": "SortingAndPeeking",
             "request": "launch",
             "mainClass": "io.github.mathew512.Streams.SortingAndPeeking",
