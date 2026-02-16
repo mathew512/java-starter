@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FindingMatching",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Streams.FindingMatching",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "CollectionOperations",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Streams.CollectionOperations",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "StreamPractice",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Exercise.java_se_020.Problem2.StreamPractice",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
             "name": "StreamExample",
             "request": "launch",
             "mainClass": "io.github.mathew512.Exercise.java_se_020.Problem1.StreamExample",
