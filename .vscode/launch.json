@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.jdbc.Main",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
             "name": "FindingMatching",
             "request": "launch",
             "mainClass": "io.github.mathew512.Streams.FindingMatching",

@@ -12,7 +12,7 @@ public class AdvancedSorting {
 
         // Salary descending, then name ascending
         employees.sort(
-            Comparator.comparing(Employee::getSalary).reversed()
+            Comparator.comparingDouble(Employee::getSalary).reversed()
                       .thenComparing(Employee::getName)
 
         );

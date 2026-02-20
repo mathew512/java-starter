@@ -11,7 +11,7 @@ public class FunctionExample {
 
         //Function Composition
         Function<String, Integer> lengthThenString = stringLength.andThen(num -> num * num);
-        Function<Integer, Integer> StringThenLength = intToString.compose(stringLength);
+        Function<String, String> StringThenLength = stringLength.andThen(intToString);
 
         System.out.println("Length of 'Hello': " + stringLength.apply("Hello"));
         System.out.println("Square of 5: " + lengthThenString.apply("Hello"));
