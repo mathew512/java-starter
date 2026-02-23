@@ -7,7 +7,7 @@ public class FunctionExample {
     public static void main(String[] args) {
         //Function examples
         Function<String, Integer> stringLength = str -> str.length();
-        Function<Integer, Integer> intToString = Object::toString;
+        Function<Integer, String> intToString = Object::toString;
 
         //Function Composition
         Function<String, Integer> lengthThenString = stringLength.andThen(num -> num * num);
@@ -17,7 +17,7 @@ public class FunctionExample {
         System.out.println("Square of 5: " + lengthThenString.apply("Hello"));
 
         //UnaryOperator - same type in and out
-        UnaryOperator<Integer> toUpper = String::toUpperCase;
+        UnaryOperator<String> toUpper = String::toUpperCase;
        
 
     }
