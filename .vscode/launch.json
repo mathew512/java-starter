@@ -8,6 +8,20 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "io.github.mathew512.Practice.Main",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "RealWorldLambdas",
+            "request": "launch",
+            "mainClass": "io.github.mathew512.Practice.RealWorldLambdas",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "io.github.mathew512.dates.Main",
             "projectName": "java"
         },
